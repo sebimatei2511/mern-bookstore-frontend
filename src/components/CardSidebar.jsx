@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./CardSidebar.css";
 
-import { API_URL } from '../../config';
+import { API_URL } from '../config';
 
 const CardSidebar = ({ isOpen, onClose }) => {
   const [cart, setCart] = useState({
